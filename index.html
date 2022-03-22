@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Education Website</title>
+    <!------ Font Awesome ------>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!------ Google Fonts ------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!------ Stylesheet ------>
+    <link rel="stylesheet" href="style.css" />
+    <!------ Queries ------>
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <!------ Scroll To Top Button ------>
+    <button id="scroll-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!------ Header ------>
+
+    <header class="sticky">
+      <nav>
+
+          <a href="index.html" id="logo">
+            <img src="images/CARO-LOGO.png" alt="CARO">
+          </a>
+
+        <i class="fas fa-bars" id="ham-menu"></i>
+        <ul id="nav-bar">
+          <li>
+            <a class="main-menu" href="#">Home</a>
+          </li>
+          <li>
+            <a class="main-menu" href="#">About Us</a>
+            <ul>
+              <li><a class="sub-menu" href="AboutUs-Overview.html">Overview</a></li>
+              <li><a class="sub-menu" href="#">R & D Policy</a></li>
+              <li><a class="sub-menu" href="#">Organisation</a></li>
+              <li><a class="sub-menu" href="#">Contact Us</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="main-menu" href="#">Research</a>
+            <ul>
+              <li><a class="sub-menu" href="#">Overview</a></li>
+              <li><a class="sub-menu" href="#">Feature Projects</a></li>
+              <li><a class="sub-menu" href="#">Capabilities</a></li>
+              <li><a class="sub-menu" href="#">CARO Labs</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="main-menu" href="#">Publications</a>
+            <ul>
+              <li><a class="sub-menu" href="#">All Publications</a></li>
+              <li><a class="sub-menu" href="#">Technical Papers</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="main-menu" href="#">News</a>
+            <ul>
+              <li><a class="sub-menu" href="#">Press Release</a></li>
+              <li><a class="sub-menu" href="#">Media Resources</a></li>
+              <li><a class="sub-menu" href="#">Events</a></li>
+              <li><a class="sub-menu" href="#">Gallery</a></li>
+
+            </ul>
+
+          </li>
+          <li>
+            <a href="#" class="main-menu">Login</a>
+          </li>
+        </ul>
+        <!-- search bar right align -->
+                <div class="main-menu">
+                    <form action="#">
+                        <input type="text"
+                            placeholder=" Search"
+                            name="search">
+                        <button>
+                            <i class="fa fa-search"
+                                style="font-size: 18px;">
+                            </i>
+                        </button>
+                    </form>
+                </div>
+    </div>
+      </nav>
+      <!-- search bar right align -->
+
+    </header>
+    <!------ Section: Hero ------>
+    <section class="hero" id="home">
+      <!-- <img src="images/header-shape.svg" id="header-shape" /> -->
+      <!-- <img src="images/bg-1.jpg" id="header-shape" /> -->
+      <div class="hero-content">
+        <h1>Welcome to CARO</h1>
+        <p>
+          A collaborative research platform catering to R&D requirements projected by
+          both Air Navigation Services (ANS) and Airport/engineering fields under one roof.
+        </p>
+        <div class="btn-container">
+          <button class="primary-btn btn">Explore More</button>
+        </div>
+      </div>
+    </section>
+    <!------ Section: AboutUs ------>
+    <section class="AboutUs" id="AboutUs">
+      <h2>What we do?</h2>
+      <p class="section-desc">
+        Airports Authority of India (AAI) is setting up a world-class Civil
+        Aviation Research Organization (CARO) aimed at finding indigenous solutions
+        to meet the challenges posed by the growing air traffic and for enhancing
+        safety, capacity and efficiency of aircraft operations in the country.
+      </p>
+    </section>
+    <!------ Section: News ------>
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <p class="section-desc">
+        CARO's research and development programme provides transformative answers to air navigation, airport and engineering problems!
+      </p>
+      <div class="row">
+        <div class="column">
+          <img src="images/projects/project1.jpg" />
+          <h3>Project-1 Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facere
+            voluptatibus natus. Amet, cupiditate illo?
+          </p>
+          <div class="projects-btn">
+            <button class="btn secondary-btn">Read More</button>
+          </div>
+        </div>
+        <div class="column">
+          <img src="images/projects/project2.jpg" />
+          <h3>Project-2 Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nulla
+            dolor nostrum animi veniam rem.
+          </p>
+          <div class="projects-btn">
+            <button class="btn secondary-btn">Read More</button>
+          </div>
+        </div>
+        <div class="column">
+          <img src="images/projects/project3.jpg" />
+          <h3>Project-3 Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            voluptatibus temporibus dolorem sit ipsam adipisci
+          </p>
+          <div class="projects-btn">
+            <button class="btn secondary-btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <div class="row">
+        <div class="column">
+          <!-- <i class="fas fa-user-gear"></i> -->
+          <i class="fas fa-envelope"></i>
+          <h3>Drop Email</h3>
+          <p>gmrnd@aai.aero <br>radians@aai.aero</p>
+        </div>
+        <div class="column">
+          <i class="fas fa-phone"></i>
+          <h3>Call Us</h3>
+          <p>+91 xxxx xxxxx <br>+91 xxxx xxxxx <br>+91 xxxx xxxxx </p>
+        </div>
+        <div class="column">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Address</h3>
+          <p> Begumpet Airport Road, Prakash Nagar, Begumpet, Hyderabad, Telangana 500016</p>
+        </div>
+      </div>
+      <div class="row1">
+        <form action="mailto:deepudevds@gmail.com" method="post" enctype=”multipart/form-data” name=”EmailForm”>
+            <input type="text" placeholder="name" class="box" required>
+            <input type="email" placeholder="email" class="box" required>
+            <input type="number" placeholder="number" class="box" required>
+            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+              <input type="submit" class="btn secondary-btn" value="Send Message">
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487295.0253965815!2d78.12783085751423!3d17.412153047138148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1647855474451!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- contact section ends  -->
+
+   <!------ Footer ------>
+    <footer>
+      <div class="row footer-about">
+        <h3>Connect With Us</h3>
+        <p>
+
+        </p>
+        <div class="social-links">
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer-copyright">
+        Copyright &copy; 2022 CARO All rights reserved.
+      </p>
+    </footer>
+    <!------ Script ------>
+    <script src="script.js"></script>
+  </body>
+</html>
